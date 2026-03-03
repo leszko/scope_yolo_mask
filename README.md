@@ -1,5 +1,7 @@
 # scope-yolo-mask
 
+[![Available on Daydream](https://img.shields.io/badge/Daydream-Install_Node-FF6B35)](https://app.daydream.live/nodes/daydreamlive/yolo-mask)
+
 A Scope plugin that segments objects in real-time video using YOLO26, producing binary masks for VACE inpainting and conditioning.
 
 ## Features
