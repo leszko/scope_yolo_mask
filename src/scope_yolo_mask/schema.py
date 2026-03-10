@@ -70,6 +70,8 @@ class YOLOMaskConfig(BasePipelineConfig):
         "Outputs binary masks for VACE inpainting/conditioning."
     )
     artifacts = []  # Ultralytics handles model downloads
+    inputs = ["video"]
+    outputs = ["video", "vace_input_frames", "vace_input_masks"]
     supports_prompts = False
     modified = True
     usage = [UsageType.PREPROCESSOR]
